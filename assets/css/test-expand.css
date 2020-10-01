@@ -1,0 +1,23 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.collapsible {
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  outline: none;
+  border: 1px solid #333333;
+  border-radius: 50%;
+}
+.content {
+  width: 100%;
+  height: auto;
+  display: none;
+}
+.content_after {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+

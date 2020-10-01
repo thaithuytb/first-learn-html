@@ -1,0 +1,105 @@
+ body {
+    margin: 0px;
+     padding: 0px;
+    font-family: sans-serif;
+    text-align: center;
+}
+ul {
+    padding: 0;
+}
+/* =======introduce========  */
+
+.introduce {
+    margin: 0px auto;
+    width: 1170px;
+}
+/* header  */
+.introduce__header {
+
+}
+.introduce__header  h3, p{
+    margin: 0px;
+}
+.introduce__header-title {
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.introduce__header-text {
+    padding: 10px 0px;
+    font-size: 20px;
+}
+/*content  */
+.introduces__content {
+
+}
+.introduces__content-list {
+    display: flex;
+    justify-content: space-between;
+}
+.introduces__content-iteam {
+    display: block;
+    height: 500px;
+    list-style: none;
+    width: 380px;
+    border: 1px solid rgb(245, 235, 235);
+    overflow: hidden;
+    transition: 0.8s all;
+    background: url('../images/cn.jpg') no-repeat bottom;
+    background-size: 335%;
+    box-shadow: -3px 10px 10px #9999;
+}
+.introduces__content-iteam:hover {
+    border: 1px solid #333333;
+}
+.introduces__content-iteam-img {
+    background: repeating-linear-gradient(-13deg,transparent 0%, transparent 31%, rgb(210 161 218) 31%, rgba(101, 188, 221, 0.6) 100%);
+    overflow: hidden;
+    margin: 0px auto;
+}
+.wp-img { 
+    width: 100px;
+    height: 100px;
+    margin: 90px auto;
+    padding: 8px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-image:linear-gradient(130deg, #74b9ff, #db7676);
+    margin-bottom: 0px;
+}
+.wp-img img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.introduces__content-iteam-name {
+    padding-top: 25px;
+    font-size: 26px;
+    font-weight: 400;
+}
+.introduces__content-iteam-work {
+    margin-top: 25px;
+    text-align: start;
+    padding-left: 45px;
+    font-size: 17px;
+}
+.introduces__content-iteam-work p{
+   margin: 15px;
+}
+.introduces__content-iteam-contact {
+    margin-top: 60px;
+}
+.introduces__content-iteam-contact a {
+    display: inline-block;
+    color: #736161;
+    width: 25px;
+    padding: 15px;
+    border: 1px solid #999999;
+}
+.introduces__content-iteam-contact a:hover {
+    color: #589b81;
+    border: 1px solid #666666;
+}
+  
