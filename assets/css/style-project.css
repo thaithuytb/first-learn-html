@@ -33,11 +33,11 @@ a {
     background: url("../images/cn.jpg") no-repeat;
     background-size: 100% auto; 
     z-index: -3;
-    opacity: 0.25;
+    opacity: 0.45;
 }
 /* =======header=======  */
 .header{
-    background: repeating-linear-gradient(158deg, rgba(250, 250, 250, 0) 0%, rgba(250, 250, 250, 0) 16%, rgb(160, 160, 156) 16.5%, rgba(250, 250, 250, 0) 16.5%,rgba(250, 250, 250, 0) 19%, rgb(160, 160, 156) 19.5%, rgba(250, 250, 250, 0) 19.5%, rgba(250, 250, 250, 0) 100%);
+    /* background: repeating-linear-gradient(158deg, rgba(250, 250, 250, 0) 0%, rgba(250, 250, 250, 0) 16%, rgb(160, 160, 156) 16.5%, rgba(250, 250, 250, 0) 16.5%,rgba(250, 250, 250, 0) 19%, rgb(160, 160, 156) 19.5%, rgba(250, 250, 250, 0) 19.5%, rgba(250, 250, 250, 0) 100%); */
     /* border-bottom: 1px solid rgb(153, 153, 153); */
     border-bottom: 1px solid #999999; 
 }
@@ -100,9 +100,9 @@ a {
     color: #171616;
     font-size: 17px;
     transition: all 0.5s; 
-    border-radius: 7px;
-    font-weight: 400;
-    background-color: silver;
+    /* border-radius: 1px; */
+    font-weight: 700;
+    /* background-color: silver; */
 }
 /* a.befor-login {
     border: none;
@@ -121,12 +121,22 @@ a {
     transition: all 0.1s; 
     /* font-size: 18px; */
     color: sienna;
-    font-weight: 400;
-      border-left: 2px solid  #6610f2;
+    font-weight: 700;
+    border-left: 2px solid  #6610f2;
     border-bottom: 2px solid #6610f2;
     border-right: 2px solid #6610f2;
     border-top: 2px solid #6610f2;
-   
+    border-radius: 4px;
+}
+.login:first-child {
+    position: relative;
+}
+.left {
+    display: none;
+    position: absolute;
+    width: 53px;
+    height: 49px;
+    background-color: #333333;
 }
 .header__navbar-iteam .login {
     display: block;
@@ -147,6 +157,8 @@ a {
 }
 .header__navbar-iteam .login:hover {
     /* transform: scale(1.1);  */
+    border-radius: 50%;
+    font-weight: 400;
 }
 /* // header_footer  */
 .wp-header__footer {
