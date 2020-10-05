@@ -3,6 +3,9 @@ html, body{
     width:100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+p {
+    margin: 0;
+}
 .head{
     width:100%;
     display:block;
@@ -171,7 +174,10 @@ html, body{
     padding-left:10px;
 }
 .list-menu a{
-    color:white;
+    color:white !important ;
+}
+.list-menu a:hover{
+    border-bottom: 2px solid white;
 }
 .fa-facebook{
     background-color:blue ;
@@ -202,6 +208,7 @@ html, body{
     height:420px;
     background-color:white;
     margin-top:90px;
+    border-radius:8px;
 }
 .content3 .menutren{
     display:flex;
@@ -246,5 +253,131 @@ html, body{
 .content3 .noidung1 .right1 ul{}
 .content3 .noidung1 .right1 ul li{
     line-height: 40px;
+} 
+.hoptac{
+    width:80%;
+    display:fle;
+    justify-content: space-between;
+    margin-top:-500px;
+    height:400px;
+    background-color:white;
+    margin:auto;
+    margin-top:40px;
+    border-radius: 8px;
 }
-.content3 .noidung1 .right1 aa{} 
+.hoptac p{
+    font-size:30px;
+    text-align:center;
+    color:green;
+    padding-top:70px;
+    height:400px;
+}
+.hoptac .anh{
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto;
+    justify-content: center;
+    margin-top:-250px;
+    padding-bottom: 20px;
+    /* justify-content: space-between; */
+    /* padding-left:80px; */
+}
+.hoptac .anh .img{
+    /* display:flex; */
+    /* justify-content: flex-start; */
+    width:200px;
+    margin:auto;
+    overflow: hidden;
+}
+.hoptac .anh .img img{
+    display: block;
+    height:auto;
+    width:100%;
+}
+.foot{
+    width:100%;
+    height:270px;
+    margin-top:30px;
+    background-color:rgb(155, 24, 24);
+    display:flex;
+    justify-content:space-between;
+    padding-top:50px;
+    color:white;
+    font-size:15px;
+    padding-left:100px;
+    padding-top:30px;
+    
+}
+.foot .text01{
+    display:block;
+    height: 30px;
+}
+.foot .text01 ._1dong{
+    display:flex;
+}
+.foot .text01 ._1dong i{
+    line-height: 30px;
+    padding-top:2px;
+    padding-right:10px;
+    
+}
+.foot .text01 ._1dong p{
+    margin: 0;
+    line-height: 30px;
+    text-align: center;
+    display:block;
+    margin:auto;
+}
+.conect{
+    display:block;
+    width:300px;
+    text-align: center;
+}
+.conect h6{}
+.conect .icon{
+    display: flex;
+    justify-content: space-between;
+    width:200px;
+    margin:auto;
+}
+.conect .icon i{
+    font-size:40px;
+    display: block;
+    width:50px;
+    height:50px;
+    padding:auto;
+    border-radius: 10px;
+    padding-top:5px;
+}
+.lienket{
+    width:500PX;
+    text-align: center;
+    margin-right:100px;
+}
+.lienket h5{}
+.lienket p{}
+.ke{
+    width:80%;
+    display: block;
+    margin: auto;
+    margin-top:-35px;
+    height:1px;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
